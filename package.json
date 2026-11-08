@@ -1,0 +1,12 @@
+{
+  "name": "details",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A focused Shopify product performance and experiment tracking workspace.",
+  "scripts": {
+    "dev": "node scripts/dev-server.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "check": "npm test"
+  },
+  "engines": { "node": ">=20" }
+}
